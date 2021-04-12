@@ -1,0 +1,82 @@
+2021-04-12 11:07:19.118  INFO 21488 --- [main] c.r.j.JwtauthenticationApplicationTests  : Starting JwtauthenticationApplicationTests using Java 15.0.1 on DESKTOP-CVN6HD5 with PID 21488 (started by rajga in C:\Users\rajga\eclipse-ee-workspace\ReturnOrderManagementSystem\jwtauthentication)
+2021-04-12 11:07:19.129 DEBUG 21488 --- [main] c.r.j.JwtauthenticationApplicationTests  : Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-04-12 11:07:19.131  INFO 21488 --- [main] c.r.j.JwtauthenticationApplicationTests  : No active profile set, falling back to default profiles: default
+2021-04-12 11:07:24.874  INFO 21488 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-12 11:07:25.250  INFO 21488 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 340 ms. Found 1 JPA repository interfaces.
+2021-04-12 11:07:26.340  INFO 21488 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c39ac90c-0030-3bc8-a8de-b98153b7a068
+2021-04-12 11:07:28.698  INFO 21488 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-12 11:07:29.396  INFO 21488 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-12 11:07:29.804  INFO 21488 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-12 11:07:30.312  INFO 21488 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-04-12 11:07:30.521  INFO 21488 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-12 11:07:31.172  INFO 21488 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-04-12 11:07:32.780  INFO 21488 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-12 11:07:32.820  INFO 21488 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-12 11:07:36.035  WARN 21488 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-12 11:07:36.739  INFO 21488 --- [main] c.r.j.config.SecurityConfig              : SecurityConfig :: authenticationManagerBean
+2021-04-12 11:07:41.707  INFO 21488 --- [main] c.r.j.config.SecurityConfig              : SecurityConfig :: configure :: AuthenticationManagerBuilder
+2021-04-12 11:07:42.281  INFO 21488 --- [main] c.r.j.config.SecurityConfig              : SecurityConfig :: configure :: HttpSecurity
+2021-04-12 11:07:42.667  INFO 21488 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5c815478, org.springframework.security.web.context.SecurityContextPersistenceFilter@6179af64, org.springframework.security.web.header.HeaderWriterFilter@59c2bf78, org.springframework.security.web.authentication.logout.LogoutFilter@2fb9695a, com.returnorder.jwtauthentication.config.JwtAuthenticationFilter@6eaf6ced, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@58c48a23, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@bedebe9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1efa258e, org.springframework.security.web.session.SessionManagementFilter@1f13eabb, org.springframework.security.web.access.ExceptionTranslationFilter@3204146d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4b4b02d]
+2021-04-12 11:07:42.754  INFO 21488 --- [main] c.r.j.config.SecurityConfig              : SecurityConfig :: passwordEncoder
+2021-04-12 11:07:43.278  INFO 21488 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-12 11:07:45.125  INFO 21488 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-12 11:07:48.563  INFO 21488 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-04-12 11:07:49.818  INFO 21488 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-04-12 11:07:49.875  INFO 21488 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-04-12 11:07:52.908  INFO 21488 --- [main] c.r.j.JwtauthenticationApplicationTests  : Started JwtauthenticationApplicationTests in 37.02 seconds (JVM running for 71.842)
+2021-04-12 11:07:52.919  INFO 21488 --- [main] c.r.j.loader.UserDataLoader              : UserDataLoader :: run()
+2021-04-12 11:07:52.924  INFO 21488 --- [main] c.r.j.service.CustomUserDetailsService   : CustomUserDetailsService :: getAllUsers
+2021-04-12 11:07:57.122  INFO 21488 --- [main] c.r.j.loader.UserDataLoader              : UserDataLoader :: loadUsers()
+2021-04-12 11:07:57.998  INFO 21488 --- [main] c.r.j.JwtauthenticationApplication       : JwtwAuthenticationApplication :: main
+2021-04-12 11:07:58.715  INFO 21488 --- [main] c.r.j.JwtauthenticationApplication       : Starting JwtauthenticationApplication using Java 15.0.1 on DESKTOP-CVN6HD5 with PID 21488 (started by rajga in C:\Users\rajga\eclipse-ee-workspace\ReturnOrderManagementSystem\jwtauthentication)
+2021-04-12 11:07:58.718 DEBUG 21488 --- [main] c.r.j.JwtauthenticationApplication       : Running with Spring Boot v2.4.4, Spring v5.3.5
+2021-04-12 11:07:58.719  INFO 21488 --- [main] c.r.j.JwtauthenticationApplication       : No active profile set, falling back to default profiles: default
+2021-04-12 11:08:02.462  INFO 21488 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-12 11:08:02.557  INFO 21488 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 94 ms. Found 1 JPA repository interfaces.
+2021-04-12 11:08:03.386  INFO 21488 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=aa375c51-3620-3db2-adae-6ec56fcb25e2
+2021-04-12 11:08:06.561  INFO 21488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 5000 (http)
+2021-04-12 11:08:06.635  INFO 21488 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-12 11:08:06.636  INFO 21488 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-04-12 11:08:08.156  INFO 21488 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-04-12 11:08:08.225  INFO 21488 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-12 11:08:08.226  INFO 21488 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 9485 ms
+2021-04-12 11:08:08.535  INFO 21488 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-04-12 11:08:08.545  INFO 21488 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-04-12 11:08:08.635  INFO 21488 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-12 11:08:08.699  INFO 21488 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-04-12 11:08:08.904  INFO 21488 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-12 11:08:08.905  INFO 21488 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-12 11:08:09.319 DEBUG 21488 --- [main] c.r.j.config.JwtAuthenticationFilter     : Filter 'jwtAuthenticationFilter' configured for use
+2021-04-12 11:08:09.513  WARN 21488 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-12 11:08:09.553  INFO 21488 --- [main] c.r.j.config.SecurityConfig              : SecurityConfig :: authenticationManagerBean
+2021-04-12 11:08:10.267  INFO 21488 --- [main] c.r.j.config.SecurityConfig              : SecurityConfig :: configure :: AuthenticationManagerBuilder
+2021-04-12 11:08:10.275  INFO 21488 --- [main] c.r.j.config.SecurityConfig              : SecurityConfig :: configure :: HttpSecurity
+2021-04-12 11:08:10.290  INFO 21488 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3b89bccf, org.springframework.security.web.context.SecurityContextPersistenceFilter@525b416f, org.springframework.security.web.header.HeaderWriterFilter@222abb8f, org.springframework.security.web.authentication.logout.LogoutFilter@502356ec, com.returnorder.jwtauthentication.config.JwtAuthenticationFilter@7203fac0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@ec50502, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@79442196, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@299a0651, org.springframework.security.web.session.SessionManagementFilter@52fe7c0f, org.springframework.security.web.access.ExceptionTranslationFilter@66a74cba, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@56059cf1]
+2021-04-12 11:08:10.304  INFO 21488 --- [main] c.r.j.config.SecurityConfig              : SecurityConfig :: passwordEncoder
+2021-04-12 11:08:10.676  INFO 21488 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-12 11:08:10.826  INFO 21488 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-12 11:08:11.930  INFO 21488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 5000 (http) with context path ''
+2021-04-12 11:08:12.327  INFO 21488 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-04-12 11:08:12.328  INFO 21488 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-04-12 11:08:12.340  INFO 21488 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-04-12 11:08:12.395  INFO 21488 --- [main] c.r.j.JwtauthenticationApplication       : Started JwtauthenticationApplication in 14.394 seconds (JVM running for 91.328)
+2021-04-12 11:08:12.399  INFO 21488 --- [main] c.r.j.loader.UserDataLoader              : UserDataLoader :: run()
+2021-04-12 11:08:12.399  INFO 21488 --- [main] c.r.j.service.CustomUserDetailsService   : CustomUserDetailsService :: getAllUsers
+2021-04-12 11:08:12.415  INFO 21488 --- [main] c.r.j.loader.UserDataLoader              : UserDataLoader :: loadUsers()
+2021-04-12 11:08:13.060  INFO 21488 --- [main] c.r.j.service.CustomUserDetailsService   : CustomUserDetailsService :: loadUserByUsername
+2021-04-12 11:08:13.061  INFO 21488 --- [main] c.r.j.service.CustomUserDetailsService   : LoadUSerDetailsService :: getUserByName
+2021-04-12 11:08:13.067  INFO 21488 --- [main] c.r.j.service.CustomUserDetailsService   : LoadUSerDetailsService :: getUserByName
+2021-04-12 11:08:13.074  INFO 21488 --- [main] c.r.j.service.CustomUserDetailsService   : CustomUserDetailsService :: getAllUsers
+2021-04-12 11:08:13.084  INFO 21488 --- [main] c.r.j.service.CustomUserDetailsService   : CustomUserDetailsService :: loadUserByUsername
+2021-04-12 11:08:13.086  INFO 21488 --- [main] c.r.j.service.CustomUserDetailsService   : LoadUSerDetailsService :: getUserByName
+2021-04-12 11:08:13.088  INFO 21488 --- [main] c.r.j.exception.UserNotFoundException    : UserNotFoundException :: constructor
+2021-04-12 11:08:13.226  INFO 21488 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-12 11:08:13.234  INFO 21488 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-12 11:08:13.235  INFO 21488 --- [SpringContextShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-04-12 11:08:13.344  INFO 21488 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-12 11:08:13.449  INFO 21488 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-04-12 11:08:13.469  INFO 21488 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-12 11:08:13.474  INFO 21488 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-12 11:08:13.475  INFO 21488 --- [SpringContextShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-04-12 11:08:13.479  INFO 21488 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2021-04-12 11:08:13.510  INFO 21488 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
